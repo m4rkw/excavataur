@@ -1,0 +1,23 @@
+---
+miners:
+  ccminer:
+    port: 3457
+    path: /usr/local/bin/ccminer
+  xmrig_nvidia:
+    port: 3458
+    path: /usr/local/bin/xmrig-nvidia
+    args:
+      all:
+        "--donate-level": 5
+  ccminer2:
+    port: 3459
+    path: /usr/local/bin/ccminer2
+    args:
+      x11gost:
+        "--intensity": 20
+  ethminer:
+    port: 3460
+    path: /usr/local/bin/ethminer
+  ewbf:
+    port: 3461
+    path: /usr/local/bin/ewbf
